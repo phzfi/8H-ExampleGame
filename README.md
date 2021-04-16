@@ -9,7 +9,7 @@ Code to be reviewed is on the scripts folder.<br/>
 <br/>
 
 #### Controls and how to play:<br/>
-use wasd to move and mouse to click.<br/>
+use wasd to move and mouse click to shoot missile.<br/>
 The gun angle changes with the distance to the target.<br/>
 To get targets down faster click close to different targets as fasta as you can.<br/>
 You do not have to click the target just close enough.<br/>
