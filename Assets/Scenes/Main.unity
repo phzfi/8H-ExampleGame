@@ -294,7 +294,7 @@ MonoBehaviour:
   levelRoot: {fileID: 3863331536179939815, guid: 77284e02cb3889e468a03e9bb581e526,
     type: 3}
   guiManager: {fileID: 328762134}
-  gameRoundTime: 10
+  gameRoundTime: 15
   player: {fileID: 7906196938355093385, guid: 4a36c4f8db8bf6e46aa361a28ac53c71, type: 3}
   playerMouseController: {fileID: 6212553041216787148, guid: 6de73de77b2280144a7c1cd2a034c180,
     type: 3}
