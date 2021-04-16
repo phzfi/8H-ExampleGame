@@ -32,15 +32,14 @@ public class MouseController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(  GameObject.Find(gunPrefab.name) );
         if (GameObject.Find(gunPrefab.name) == null)
         {
             gunPrefab = Instantiate(gunPrefab);
         }
-        Debug.Log(  GameObject.Find(gunPrefab.name) );
+
         mouseTargetingSystem = this.transform;
         mouseTargetingSystem.gameObject.AddComponent<GeometryVision>();
-        Debug.Log( "geovis"+ GetComponent<GeometryVision>());
+
 
         geoVision = GetComponent<GeometryVision>();
         //Default field of view is too narrow for this purpose. Lets change it.

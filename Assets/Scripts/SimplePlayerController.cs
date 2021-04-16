@@ -19,7 +19,7 @@ public class SimplePlayerController : MonoBehaviour
     private Entity entityRemainsToSpawn = Entity.Null;
     private MissileSystem missileSystem = null;
     private BlobAssetStore bStore = null;
-        
+    private float playerMovementSpeed = 15;
     [SerializeField] private Transform gun = null;
     public GeometryVision GeoVision
     {
@@ -117,7 +117,7 @@ public class SimplePlayerController : MonoBehaviour
             
             var position = this.transform.position;
             this.transform.position = Vector3.MoveTowards(position, position + input,
-                Time.deltaTime * 5);
+                Time.deltaTime * playerMovementSpeed);
         }
         
         void HandleMissileFiring()
