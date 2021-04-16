@@ -7,7 +7,14 @@
 Is a classical wave shooter with missile. Due to 8 hour restriction some features, such as moving enemies and damage syste to the player where not implented.<br/>
 Code to be reviewed is on the scripts folder.<br/>
 <br/>
-#### Notes:
+
+#### Controls and how to play:<br/>
+use wasd to move and mouse to click.<br/>
+The gun angle changes with the distance to the target.<br/>
+To get targets down faster click close to different targets as fasta as you can.<br/>
+You do not have to click the target just close enough.<br/>
+
+#### Notes:<br/>
 -Uses new unity.physics ecs based physics package, which is slow on the editor, but super fast on the build.<br/>
 -Uses the new Ecs/DOTS unity packages that are currently in preview state.<br/>
 -Build is on the TestBuilds folder.<br/>
