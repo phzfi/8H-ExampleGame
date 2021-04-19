@@ -18,4 +18,4 @@ You do not have to click the target just close enough.<br/>
 -Uses new unity.physics ecs based physics package, which is slow on the editor, but super fast on the build.<br/>
 -Uses the new Ecs/DOTS unity packages that are currently in preview state.<br/>
 -Build is on the TestBuilds folder.<br/>
--compiled android apk file is on the AndroidAPK folder.<br/>
+-compiled android apk file is on the AndroidAPK folder(the apk was meant to test that it builds on mobiel the actual controls are made for pc).<br/>
